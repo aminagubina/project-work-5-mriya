@@ -5,12 +5,12 @@
 body {
     font-family: 'Exo 2', sans-serif;
 }
-. wrap {
+.wrap {
     width: 350px;
     margin: 40px auto;
     border: 1px solid #c0c0c0;
     padding: 20px;
-    border-radius 4px;
+    border-radius: 4px;
 }
 h1 {
     font-size: 20px;
@@ -20,7 +20,7 @@ h1 {
 .img {
     width: 300px;
     display: block;
-    margin: 20px avto;
+    margin: 20px auto;
     border-radius: 300px;
     box-shadow: 0 0 10px #454545;
 }
@@ -36,8 +36,10 @@ p {
 }
 .side {
     font-weight: 700px;
-    width: 180%;
-    display: inline-blockdisplay: inline-block;
+    width: 180px;
+    display: table-column-group;
+    display: inline-block;
+    text-align: justify;
 }
 p:nth-child(even) {
     background: #ececec;
